@@ -21,7 +21,7 @@ public class ChatBotUtil {
 	private static String apiUrl = "https://l4x9xyag26.apigw.ntruss.com/custom/v1/8344/4e8ff243fe36bd3d0b6ebd109566d4785cbe65b4a85fd81e7dedb3c0d0ac2796";
 
 	
-	
+	//Util 사용 이유: 코드의 재사용성을 위해
 	public static String chat(String txt) throws IOException {
 		URL url = new URL(apiUrl);
 		String chatMessage = "";
